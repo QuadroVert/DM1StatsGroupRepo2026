@@ -4,4 +4,3 @@ from scipy import interpolate, integrate
 
 import matplotlib
 import matplotlib.pyplot as plt
-%matplotlib inline
