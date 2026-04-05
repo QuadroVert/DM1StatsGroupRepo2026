@@ -1,7 +1,11 @@
+import warnings
 import numpy as np
 import pandas as pd
-import wimprates as wr
 from pathlib import Path
+
+with warnings.catch_warnings():
+    warnings.simplefilter("ignore")
+    import wimprates as wr
 
 # NOTE, this was originally in likelihood.ipynb as at first it was assumed to have been
 # the only file we'd work in. But, more changes and different approaches then lead to the
