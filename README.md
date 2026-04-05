@@ -8,7 +8,8 @@ Replication and statistical analysis of the XENON1T S2-only dark matter search, 
 
 ## Repository Structure
 
-The repository is structured as specified in the report (folders data/, src/, notebooks/, plots/) with some tweaks. Mainly, data/ is now SourceData to reflect the nature of the original data, and tests/ showcased early test files checking out initial python loaders.
+The repository is structured as specified in the report (folders data/, src/, notebooks/, plots/) with some tweaks. Mainly, data/ is now SourceData to reflect the nature of the original data, and tests/ showcased early test files checking out initial python loaders. 
+NOTE: ReportDM12026.pdf is the report itself. 
 
 ---
 
