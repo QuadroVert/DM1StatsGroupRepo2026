@@ -1,8 +1,10 @@
 venv/
+.venv/
 .env
 pycache/
 __pycache__/
 *.pyc
+.vscode/
 Information.md
 Testing2.ipynb
 Scrap_likelihood.ipynb
