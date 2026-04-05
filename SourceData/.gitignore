@@ -3,3 +3,5 @@
 !*.csv
 !.gitignore
 README.md
+plots/
+limits/
