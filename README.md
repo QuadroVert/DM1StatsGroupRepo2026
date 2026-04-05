@@ -1,6 +1,6 @@
 # DM1 Stats Group Project — XENON1T S2-Only Analysis
 
-Group Project DM1 for the tatistics for Modern Physics (BSc) course. 
+Group Project DM1 for the Statistics for Modern Physics (BSc) course. 
 
 Replication and statistical analysis of the XENON1T S2-only dark matter search, built specifically from the S2only_data_release. 
 
@@ -8,7 +8,7 @@ Replication and statistical analysis of the XENON1T S2-only dark matter search, 
 
 ## Repository Structure
 
-The repository is structured as specified in the report (folders data/, src/, notebooks/, plots/) with some tweaks. Mainly, data/ is now SourceData to relfect the nature of the original data, and tests/ showcased early test files checking out initial python loaders.
+The repository is structured as specified in the report (folders data/, src/, notebooks/, plots/) with some tweaks. Mainly, data/ is now SourceData to reflect the nature of the original data, and tests/ showcased early test files checking out initial python loaders.
 
 ---
 
@@ -40,12 +40,12 @@ pip install -r Requirements.txt
 
 ## Running the Analysis
 
-The notebooks can be run in any order, as each showcases seperate parts.
+The notebooks can be run in any order, as each showcases separate parts.
 
 | Notebook | Description |
 |---|---|
 | `Background_fit.ipynb` | Fits the background normalisation β using a Poisson likelihood. Computes the Bayesian posterior under flat and scale-invariant priors and reports the 68% credible interval. |
-| `likelihood.ipynb` | Currently Implements the full binned likelihood, defines the signal region of interest (ROI: 165.3–271.7 PE). It also adds the signal component (Note, possible should be split in seperate file). |
+| `likelihood.ipynb` | Currently Implements the full binned likelihood, defines the signal region of interest (ROI: 165.3–271.7 PE). It also adds the signal component (Note: possibly should be split in separate file). |
 | `Signal_test.ipynb` | Extends the likelihood to treat signal strength µ_s as a free parameter. Computes the Bayes factor B₀₁ under flat and log-uniform priors and discusses prior sensitivity. |
 
 All notebooks import shared variables (binning, observed counts, background model, signal template, ROI) from `src/loader.py`.
